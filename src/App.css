@@ -1,0 +1,12 @@
+.homeBG {
+  background-image: url("./assets/medi1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: brightness(0.6); */
+}
+
+.dashboardBG {
+  background-image: url("./assets/medi2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
