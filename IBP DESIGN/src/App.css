@@ -1,0 +1,132 @@
+* {
+  font-family: "Roboto", "Roboto Condensed", Segoe UI, Tahoma, Geneva, Verdana,
+    sans-serif !important;
+  overflow-x: hidden;
+  font-kerning: normal;
+}
+
+/* these are css rules for the buttons element */
+.btn:hover {
+  transform: scale(0.9);
+  opacity: 0.75 !important;
+  transition: all;
+  transition-duration: 0.2s;
+}
+
+.navLink:hover {
+  /* opacity: 0.75 !important;
+  transition-duration: 1s;
+  transition: all; */
+  opacity: 0.5 !important;
+  font-size: 1.05em;
+  color: #856f00;
+  transition: all;
+  transition-duration: 0.2s;
+}
+
+/* these are css rules for the callout element */
+.queContainer .queAfter {
+  position: fixed;
+  right: 60px;
+  bottom: 25px;
+  transform: translateX(-10px);
+  padding-right: 10px;
+  opacity: 0 !important;
+  transition: all;
+  transition-duration: 0.4s;
+}
+
+.queContainer:hover .queAfter {
+  transform: translateX(10px);
+  opacity: 1 !important;
+  transition: all;
+  transition-duration: 0.7s;
+  transition-delay: 0.2s;
+}
+
+.queContainer .queBefore {
+  position: fixed;
+  right: 60px;
+  bottom: 10px;
+  transform: translateX(40px);
+  transition: all;
+  transition-duration: 1s;
+  z-index: 100 !important;
+}
+
+.queContainer:hover .queBefore {
+  transform: translateX(-250px);
+  transition: all;
+  transition-duration: 1s;
+}
+
+/* logger styles */
+.dismiss:hover {
+  font-size: 1.4em !important;
+  color: rgb(226, 1, 1);
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: 1px solid;
+  transition: all;
+  transition-duration: 1s;
+}
+
+/* home page styles */
+.serviceHeaderText {
+  font-size: 4rem !important;
+  color: #353535;
+}
+
+.serviceHeaderSubTextLight {
+  font-weight: 100;
+  padding-right: 1vw;
+}
+.serviceHeaderSubTextBold {
+  font-weight: 600;
+}
+
+.serviceHeaderSmall {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.serviceText {
+  font-size: 1.25rem;
+}
+
+.lined {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  border-bottom: black solid;
+  border-width: 0.35vh;
+  flex: 1;
+}
+
+.yBar {
+  background-color: white;
+  width: 0.3vw;
+  height: 9vh;
+  border-radius: 100vw;
+}
+
+/* @keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+} */
